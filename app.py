@@ -360,10 +360,10 @@ def signup():
 
 if __name__ == '__main__':
     conn = MySQLConnection(
-    host="remotemysql.com",
-    user="JXfpIVib9M",
-    password="4bSlOg4CW2",
-    database="JXfpIVib9M"
+    host="127.0.0.1",
+    user="root",
+    password="",
+    database="mydatabase"
     )
 
     cursor = conn.cursor(buffered=True)
